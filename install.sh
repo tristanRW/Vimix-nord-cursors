@@ -11,16 +11,16 @@ else
   mkdir -p $DEST_DIR
 fi
 
-if [ -d "$DEST_DIR/Vimix-cursors" ]; then
-  rm -rf "$DEST_DIR/Vimix-cursors"
+if [ -d "$DEST_DIR/Vimix-nord-cursors" ]; then
+  rm -rf "$DEST_DIR/Vimix-nord-cursors"
 fi
 
-if [ -d "$DEST_DIR/Vimix-white-cursors" ]; then
-  rm -rf "$DEST_DIR/Vimix-white-cursors"
+if [ -d "$DEST_DIR/Vimix-nord-white-cursors" ]; then
+  rm -rf "$DEST_DIR/Vimix-nord-white-cursors"
 fi
 
-cp -r dist/ $DEST_DIR/Vimix-cursors
-cp -r dist-white/ $DEST_DIR/Vimix-white-cursors
+cp -r dist/ $DEST_DIR/Vimix-nord-cursors
+cp -r dist-white/ $DEST_DIR/Vimix-nord-white-cursors
 
 echo "Finished..."
 

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="32"
    height="32"
    version="1.1"
    viewBox="0 0 32 32"
    id="svg17"
    sodipodi:docname="size_bdiag.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata21">
     <rdf:RDF>
@@ -34,17 +34,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="696"
+     inkscape:window-width="3000"
+     inkscape:window-height="1916"
      id="namedview19"
      showgrid="false"
      inkscape:zoom="20.85965"
-     inkscape:cx="1.6034964"
-     inkscape:cy="17.711229"
+     inkscape:cx="1.5820016"
+     inkscape:cy="17.689654"
      inkscape:window-x="0"
-     inkscape:window-y="36"
+     inkscape:window-y="40"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg17" />
+     inkscape:current-layer="svg17"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs5">
     <filter
@@ -62,9 +65,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter926"
-       x="-0.25843856"
-       width="1.5168771"
-       y="-0.078141637"
+       x="-0.25843843"
+       width="1.5168769"
+       y="-0.078141635"
        height="1.1562833">
       <feGaussianBlur
          inkscape:collect="always"
@@ -96,7 +99,7 @@
      d="m 21.89889,15.10094 4.000953,-9.0004197 -9.000419,4.0009537 -1e-6,2.002548 a 4,4 0 0 1 1.929353,1.067566 4,4 0 0 1 1.064803,1.929352 z m -6.797617,6.797616 10e-7,-2.002548 A 4,4 0 0 1 13.171921,18.828442 4,4 0 0 1 12.107118,16.89909 l -2.005311,10e-7 -4.0009534,9.000419 z"
      id="rect835" />
   <circle
-     style="opacity:1;fill:#1976d2;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     style="opacity:1;fill:#5e81ac;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
      id="path851"
      cx="-0.00023569448"
      cy="-22.627674"

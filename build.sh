@@ -100,10 +100,10 @@ function create {
 
 # generate pixmaps from svg source
 SRC=$PWD/src
-THEME="Vimix Cursors"
+THEME="Vimix Nord Cursors"
 
 create svg
 
-THEME="Vimix Cursors - White"
+THEME="Vimix Nord Cursors - White"
 
 create svg-white
