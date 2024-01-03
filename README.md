@@ -1,6 +1,6 @@
-# Vimix cursors
-This is an x-cursor theme inspired by Materia design and
-based on [capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors).
+# Vimix Nord cursors
+This is an x-cursor theme based on [Vimix-cursors](https://github.com/vinceliuice/Vimix-cursors)
+and adapted to fit nicely into the [Nord](https://github.com/nordtheme/nord?tab=readme-ov-file) color-theme.
 
 ## Installation
 To install the cursor theme simply copy the compiled theme to your icons
@@ -17,6 +17,8 @@ sudo ./install.sh
 ```
 
 Then set the theme with your preferred desktop tools.
+
+### Nix
 
 ### Windows
 
