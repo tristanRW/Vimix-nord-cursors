@@ -11,7 +11,7 @@
     pkgs = import nixpkgs { inherit system; };
   in {
 
-    vimix-cursors-nord = vimix-cursors-nord = pkgs.callPackage ./vimix-nord {  };
+    vimix-cursors-nord = pkgs.callPackage ./vimix-nord {  };
 
   };
 }
