@@ -5,12 +5,13 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
   };
 
-  outputs = {self, nixpkgs}:
+  outputs = {nixpkgs}:
   let
     system = "x86_64-linux";
     pkgs = import nixpkgs { inherit system; };
   in {
 
-    vimix-nord = pkgs.callPackage ./ {  }; #call default.nix as package
+    vimix-cursors-nord = vimix-cursors-nord = pkgs.callPackage ./vimix-nord {  };
+
   };
 }
