@@ -12,16 +12,16 @@ stdenvNoCC.mkDerivation rec {
     owner = "tristanRW";
     repo = "Vimix-nord-cursors";
     rev = "v${version}";
-    sha256 = "";
+    sha256 = "sha256-vgerrPCoECm+cChfQN0VcqEeGT3wTg5E2l5a5Sr3cfQ=";
   };
 
   installPhase = ''
     mkdir -p $out/share/icons
 
-    cp -r vimix-nord-dark/ $out/share/icons/vimix-nord-cursors
+    cp -r dist-dark/ $out/share/icons/vimix-nord-cursors
     mv $out/share/icons/vimix-nord-cursors/index.theme $out/share/icons/vimix-nord-cursors/cursor.theme
     mv $out/share/icons/vimix-nord-cursors/vimix-nord-cursors $out/share/icons/vimix-nord-cursors/cursors
-    cp -r vimix-nord-white/ $out/share/icons/vimix-nord-white-cursors
+    cp -r vdist-white/ $out/share/icons/vimix-nord-white-cursors
     mv $out/share/icons/vimix-nord-white-cursors/index.theme $out/share/icons/vimix-nord-white-cursors/cursor.theme
     mv $out/share/icons/vimix-nord-white-cursors/vimix-nord-white-cursors $out/share/icons/vimix-nord-white-cursors/cursors
   '';
