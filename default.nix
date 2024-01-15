@@ -5,7 +5,7 @@
 }:
 
 stdenvNoCC.mkDerivation rec {
-  pname = "vimix-nord-cursor-theme";
+  pname = "vimix-nord-cursors";
   version = "1.0";
 
   src = fetchFromGitHub {
@@ -16,14 +16,12 @@ stdenvNoCC.mkDerivation rec {
   };
 
   installPhase = ''
-    mkdir -p $out/share/icons
+    install -dm 0755 $out/share/icons
 
-    cp -r dist-dark/ $out/share/icons/vimix-nord-cursors
+    cp -pr dist/ $out/share/icons/vimix-nord-cursors
     mv $out/share/icons/vimix-nord-cursors/index.theme $out/share/icons/vimix-nord-cursors/cursor.theme
-    mv $out/share/icons/vimix-nord-cursors/vimix-nord-cursors $out/share/icons/vimix-nord-cursors/cursors
-    cp -r vdist-white/ $out/share/icons/vimix-nord-white-cursors
+    cp -pr dist-white/ $out/share/icons/vimix-nord-white-cursors
     mv $out/share/icons/vimix-nord-white-cursors/index.theme $out/share/icons/vimix-nord-white-cursors/cursor.theme
-    mv $out/share/icons/vimix-nord-white-cursors/vimix-nord-white-cursors $out/share/icons/vimix-nord-white-cursors/cursors
   '';
 
   meta = with lib; {
